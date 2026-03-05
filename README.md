@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+a57ac3e (Initial commit: legislative data pipeline)
 # Legislative Data Pipeline
 
 A production-style ETL pipeline that ingests state legislative bill data from the Open States API, transforms and stores it in PostgreSQL, and generates summary reports to support civic data analysis and climate policy tracking.
@@ -58,7 +58,11 @@ psycopg2-binary==2.9.7
 python-dotenv==1.0.0
 apache-airflow==2.7.0
 pytest==7.4.0
+
 sqlalchemy==2.0.20
-=======
+
 # legislative-pipeline
->>>>>>> 1b8c6a3121ed9e6564fec77978ebd03eeea9a4f8
+1b8c6a3121ed9e6564fec77978ebd03eeea9a4f8
+
+sqlalchemy==2.0.20
+a57ac3e (Initial commit: legislative data pipeline)
