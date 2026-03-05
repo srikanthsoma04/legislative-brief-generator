@@ -1,6 +1,4 @@
-a57ac3e (Initial commit: legislative data pipeline)
 # Legislative Data Pipeline
-
 A production-style ETL pipeline that ingests state legislative bill data from the Open States API, transforms and stores it in PostgreSQL, and generates summary reports to support civic data analysis and climate policy tracking.
 
 ## Tech Stack
@@ -24,7 +22,6 @@ legislative-pipeline/
 ├── sql/
 │   └── schema.sql
 ├── tests/
-│   ├── test_ingest.py
 │   ├── test_transform.py
 │   └── test_validate.py
 ├── .env.example
