@@ -9,6 +9,7 @@ A production-style ETL pipeline that ingests state legislative bill data from th
 - python-dotenv
 
 ## Project Structure
+'''
 legislative-pipeline/
 ├── src/
 │   ├── ingest.py
@@ -27,7 +28,7 @@ legislative-pipeline/
 ├── .env.example
 ├── requirements.txt
 └── README.md
-
+'''
 ## Setup
 1. pip install -r requirements.txt
 2. cp .env.example .env and fill in credentials
