@@ -1,0 +1,32 @@
+[
+  {
+    "id": "TX-001",
+    "name": "Jane Smith",
+    "party": "Democratic",
+    "state": "TX",
+    "chamber": "House",
+    "committees": ["Energy and Environment", "Finance"],
+    "votes": [
+      {"bill_id": "HB1234", "bill_title": "Clean Energy Grid Act", "vote": "yes", "date": "2025-02-14"},
+      {"bill_id": "SB567", "bill_title": "Carbon Reduction Standards", "vote": "yes", "date": "2025-01-30"},
+      {"bill_id": "HB890", "bill_title": "Oil Subsidy Extension", "vote": "no", "date": "2024-11-12"},
+      {"bill_id": "SB234", "bill_title": "Renewable Energy Tax Credit", "vote": "yes", "date": "2024-09-05"},
+      {"bill_id": "HB456", "bill_title": "Pipeline Expansion Act", "vote": "no", "date": "2024-06-20"}
+    ]
+  },
+  {
+    "id": "TX-002",
+    "name": "John Doe",
+    "party": "Republican",
+    "state": "TX",
+    "chamber": "Senate",
+    "committees": ["Natural Resources", "Agriculture"],
+    "votes": [
+      {"bill_id": "HB1234", "bill_title": "Clean Energy Grid Act", "vote": "no", "date": "2025-02-14"},
+      {"bill_id": "SB567", "bill_title": "Carbon Reduction Standards", "vote": "no", "date": "2025-01-30"},
+      {"bill_id": "HB890", "bill_title": "Oil Subsidy Extension", "vote": "yes", "date": "2024-11-12"},
+      {"bill_id": "SB234", "bill_title": "Renewable Energy Tax Credit", "vote": "no", "date": "2024-09-05"},
+      {"bill_id": "HB456", "bill_title": "Pipeline Expansion Act", "vote": "yes", "date": "2024-06-20"}
+    ]
+  }
+]
